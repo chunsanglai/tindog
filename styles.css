@@ -1,0 +1,168 @@
+body {
+    /* font-family: "Montserrat"; */
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#features {
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    margin-bottom: -40%;
+    left: 15%
+}
+
+#features {
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.col-lg-4 {
+    padding: 5%;
+}
+
+.feature-titles {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+.feature-text {
+    color: grey;
+}
+
+.fa-solid {
+    font-size: 4rem;
+    padding: 5% 0;
+    color: #EF8172;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-images {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: #FF4C68;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+
+.footer-text {
+    color: grey;
+    font-size: 13px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
